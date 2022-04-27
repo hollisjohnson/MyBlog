@@ -78,11 +78,6 @@ def add_template(content,title):
     finished_html = finished_html.replace("{{title}}" , title)
     return finished_html
     
-# def add_title(title):
-#     template = open ("templates/base.html").read()
-    
-#     return titled_html
-
 def main():
     for page in pages:
         file_name=page["filename"]
